@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 				viewFlipper.setInAnimation(MainActivity.this, R.anim.view_transition_in_left);
 				viewFlipper.setOutAnimation(MainActivity.this, R.anim.view_transition_out_left);
 				viewFlipper.showNext();
-				Log.v("onClick", " ");
+				Log.v("onClick", "  ");
 			}
         	
         });
