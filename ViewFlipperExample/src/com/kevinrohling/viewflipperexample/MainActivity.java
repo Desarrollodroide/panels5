@@ -2,6 +2,7 @@ package com.kevinrohling.viewflipperexample;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.Animation;
@@ -28,7 +29,7 @@ public class MainActivity extends Activity {
 				viewFlipper.setInAnimation(MainActivity.this, R.anim.view_transition_in_left);
 				viewFlipper.setOutAnimation(MainActivity.this, R.anim.view_transition_out_left);
 				viewFlipper.showNext();
-				
+				Log.v("onClick", " ");
 			}
         	
         });
